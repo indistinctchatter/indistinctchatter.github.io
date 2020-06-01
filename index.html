@@ -1,0 +1,292 @@
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>indistinct chatter studio</title>
+<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+<script src="/scripts/lazysizes.min.js" async=""></script>
+  <style>
+    html, body {
+      position: relative;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-size: 18px;
+    }
+    body {
+      font-family: sans-serif;
+      line-height: 1.125;
+      background: #000;
+      color: #fff;
+      text-shadow: 0 .075rem .25rem rgba(0,0,0,.25);
+    }
+    header, footer, .swiper-pagination {
+      display: block;
+      position: fixed;
+      width: 100%;
+      margin-left: -50%;
+      padding: 0 20px 0 20px;
+      left: 50%;
+      z-index: 5;
+      color: #fff;
+    }
+    header .half {
+      text-align: left;
+    }
+
+    footer {
+      display:none;
+      /*display: block;
+      z-index: 3;
+      color: #ff0;
+      bottom: 3.33%;
+      left: 45%;
+      position: fixed;
+      text-align: center;
+      font-size: 2rem;
+      text-shadow: -0.05rem -0.05rem 0 #000, 0.05rem -0.05rem 0 #000, -0.05rem 0.05rem 0 #000, 0.05rem 0.05rem 0 #000;*/
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      background: #000;
+
+      /* Center slide text vertically */
+      /*display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;*/
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .swiper-button-prev {
+      width: 50%;
+      height: 100%;
+      top: 0;
+      color: rgba(255, 255, 255, 0);
+      /*cursor: w-resize !important;*/
+      cursor: url("/images/slides-arrow-prev-white.svg") 15 10,e-resize !important;
+      z-index: 4;
+      text-shadow: none !important;
+    }
+    .swiper-button-next {
+      width: 50%;
+      height: 100%;
+      top: 0;
+      right: 0;
+      color: rgba(255, 255, 255, 0);
+      /*cursor: e-resize !important;*/
+      cursor: url("/images/slides-arrow-next-white.svg") 15 10,e-resize !important;
+      z-index: 4;
+      text-shadow: none !important;
+    }
+    .swiper-button-prev:focus {
+      outline: none !important;
+    }
+    .swiper-button-next:focus {
+      outline: none !important;
+    }
+    .swiper-pagination {
+      bottom: 10px;
+      text-align: left;
+      z-index: 5;
+    }
+    .caption {
+      margin: 0px 10px 0px 10px;
+      bottom: 10px;
+      left: 75px;
+      text-align: left;
+      position: absolute;
+      display: block;
+      z-index: 5;
+      font-size: 1rem !important;
+    }
+    .swiper-slide img {
+      width:100%;
+      height:100%;
+      object-fit: cover;
+      object-position: 0 0;
+      overflow: hidden;
+    }
+    @media screen and (min-width: 62em) { /* > 568px */
+      body {
+        font-size: 1rem;
+      }
+      header {
+        display: flex;
+      }
+      header .half {
+        flex: 1 0 50%;
+      }
+      footer {
+          display: block !important;
+          z-index: 3;
+          color: #ff0;
+          bottom: 3.33%;
+          text-align: center;
+          font-size: 3rem;
+          text-shadow: -0.05rem -0.05rem 0 #000, 0.05rem -0.05rem 0 #000, -0.05rem 0.05rem 0 #000, 0.05rem 0.05rem 0 #000;
+        }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="half">
+      <p>photography and graphic design <br>
+      </p>
+    </div>
+    <div class="half">
+      <p><a href="mailto:indistinctchatter.studio@pm.me">indistinctchatter.studio@pm.me<a><br>
+        (+420) 775 184 995
+      </p>
+    </div>
+  </header>
+  <div class="swiper-container swiper-container-initialized swiper-container-horizontal">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide swiper-slide-active" style="width: 1680px;"><img srcset="/images/Greenhouse_01_x1.jpg 1x, /images/Greenhouse_01_x2.jpg 2x" class "lazyload"><p class="caption">The Fourth Greenhouse (publication,&nbsp2020)</p></div>
+      <div class="swiper-slide swiper-slide-next" style="width: 1680px;"><img srcset="/images/Greenhouse_02_x1.jpg 1x, /images/Greenhouse_02_x2.jpg 2x" class "lazyload"><p class="caption">The Fourth Greenhouse (publication,&nbsp2020)</p></div>
+      <div class="swiper-slide swiper-slide-next" style="width: 1680px;"><img srcset="/images/Greenhouse_03_x1.jpg 1x, /images/Greenhouse_03_x2.jpg 2x" class "lazyload"><p class="caption">The Fourth Greenhouse (publication,&nbsp2020)</p></div>
+      <div class="swiper-slide" style="width: 1680px;"><img srcset="/images/AKCE_01_x1.jpg 1x, /images/AKCE_01_x2.jpg 2x" class "lazyload"><p class="caption">Ivars Gravlejs at Galerie města Blanska (publication,&nbsp2019)</p></div>
+      <div class="swiper-slide" style="width: 1680px;"><img srcset="/images/AKCE_02_x1.jpg 1x, /images/AKCE_02_x2.jpg 2x" class "lazyload"><p class="caption">Ivars Gravlejs at Galerie města Blanska (publication,&nbsp2019)</p></div>
+      <div class="swiper-slide" style="width: 1680px;"><img srcset="/images/MissingStudies_01_x1.jpg 1x, /images/MissingStudies_01_x2.jpg 2x" class "lazyload"><p class="caption">Missing Studies (platform design,&nbsp2019—ongoing)</p></div>
+      <div class="swiper-slide" style="width: 1680px;"><img srcset="/images/MissingStudies_02_x1.jpg 1x, /images/MissingStudies_02_x2.jpg 2x" class "lazyload"><p class="caption">Missing Studies (platform design,&nbsp2019—ongoing)</p></div>
+      <div class="swiper-slide" style="width: 1680px;">
+        <picture>
+          <source
+            media="(max-width: 62em)"
+            srcset="/images/TICBRNO_02_m_x1.jpg 1x, /images/TICBRNO_02_m_x2.jpg 2x"
+            class "lazyload">
+          <source
+            media="(min-width: 465px)"
+            srcset="/images/TICBRNO_02_x1.jpg 1x, /images/TICBRNO_02_x2.jpg 2x"
+            class "lazyload">
+          <img src="/images/TICBRNO_02_x2.jpg"
+            class="lazyload" alt="TIC BRNO (identity, 2017—ongoing)">
+        </picture><p class="caption">TIC BRNO (identity,&nbsp2017—ongoing)</p></div>
+      <div class="swiper-slide" style="width: 1680px;"><img srcset="/images/TICBRNO_01_x2.jpg 1x, /images/TICBRNO_01_x2.jpg 2x" class "lazyload"><p class="caption">TIC BRNO (identity,&nbsp2017—ongoing)</p></div>
+        <div class="swiper-slide" style="width: 1680px;">
+          <picture>
+            <source
+              media="(max-width: 62em)"
+              srcset="/images/FAVU_02_m_x1.jpg 1x, /images/FAVU_02_m_x2.jpg 2x"
+              class "lazyload">
+            <source
+              media="(min-width: 465px)"
+              srcset="/images/FAVU_02_x1.jpg 1x, /images/FAVU_02_x2.jpg 2x"
+              class "lazyload">
+            <img src="/images/FAVU_02_x2.jpg"
+              class="lazyload" alt="FAVU (event & exhibition series,&nbsp2017–2019)">
+          </picture><p class="caption">FAVU (event & exhibition series,&nbsp2017–2019)</p></div>
+      <div class="swiper-slide" style="width: 1680px;">
+        <picture>
+          <source
+            media="(max-width: 62em)"
+            srcset="/images/SEMESTR_01_m_x1.jpg 1x, /images/SEMESTR_01_m_x2.jpg 2x">
+          <source
+            media="(min-width: 465px)"
+            srcset="/images/SEMESTR_01_x1.jpg 1x, /images/SEMESTR_01_x2.jpg 2x">
+          <img src="/images/SEMESTR_01_x2.jpg"
+            class="lazyload" alt="Semestr gallery (signage, zine, 2018)">
+        </picture><p class="caption">Semestr Gallery (signage,&nbspzine,&nbsp2018)</p></div>
+      <div class="swiper-slide" style="width: 1680px;"><img srcset="/images/OTWSCCTTS_02_x1.jpg 1x, /images/OTWSCCTTS_02_x2.jpg 2x" class "lazyload"><p class="caption">Only the World’s Smartest Camera Can Tell This Story (exhibition,&nbsp2018)</p></div>
+      <div class="swiper-slide" style="width: 1680px;">
+        <picture>
+          <source
+            media="(max-width: 62em)"
+            srcset="/images/FAVU_01_m_x1.jpg 1x, /images/FAVU_01_m_x2.jpg 2x"
+            class "lazyload">
+          <source
+            media="(min-width: 465px)"
+            srcset="/images/FAVU_01_x1.jpg 1x, /images/FAVU_01_x2.jpg 2x"
+            class "lazyload">
+          <img src="/images/FAVU_01_x2.jpg"
+            class="lazyload" alt="FAVU (event & exhibition series,&nbsp2017–2019)">
+        </picture><p class="caption">FAVU (event,&nbsp2018)</p></div>
+      <div class="swiper-slide mobile" style="width: 1680px;">
+        <picture>
+          <source
+            media="(max-width: 62em)"
+            srcset="/images/HTWAF_01_m_x1.jpg 1x, /images/HTWAF_01_m_x2.jpg 2x"
+            class "lazyload">
+            <source
+            media="(min-width: 465px)"
+            srcset="/images/HTWAF_01_x1.jpg 1x, /images/HTWAF_01_x2.jpg 2x"
+            class "lazyload">
+            <img src="/images/HTWAF_01_x2.jpg"
+             class="lazyload" alt="TIC BRNO (identity, 2017—ongoing)">
+        </picture><p class="caption">Centre for Cybernetic Culture Circulation at DUMB Brno (exhibition,&nbsp2018)</p></div>
+      <div class="swiper-slide" style="width: 1680px;"><img srcset="/images/HTWAF_02_x1.jpg 1x, /images/HTWAF_02_x2.jpg 2x" class "lazyload"><p class="caption">Centre for Cybernetic Culture Circulation at DUMB Brno (exhibition,&nbsp2018)</p></div>
+      <div class="swiper-slide mobile" style="width: 1680px;">
+        <picture>
+          <source
+            media="(max-width: 62em)"
+            srcset="/images/KASK_01_m_x1.jpg 1x, /images/KASK_01_m_x2.jpg 2x"
+            class "lazyload">
+            <source
+            media="(min-width: 465px)"
+            srcset="/images/KASK_01_x1.jpg 1x, /images/KASK_01_x2.jpg 2x"
+            class "lazyload">
+            <img src="/images/KASK_01_x2.jpg"
+             class="lazyload" alt="TIC BRNO (identity, 2017—ongoing)">
+        </picture><p class="caption">KASK Lezing (poster,&nbsp2017)</p></div>
+      <div class="swiper-slide mobile" style="width: 1680px;">
+        <picture>
+          <source
+            media="(max-width: 62em)"
+            srcset="/images/PRERAF_01_m_x1.jpg 1x, /images/PRERAF_01_m_x2.jpg 2x"
+            class "lazyload">
+            <source
+            media="(min-width: 465px)"
+            srcset="/images/PRERAF_01_x1.jpg 1x, /images/PRERAF_01_x2.jpg 2x"
+            class "lazyload">
+            <img src="/images/PRERAF_01_x2.jpg"
+             class="lazyload" alt="PRE:RAF Short (poster, 2017)">
+        </picture><p class="caption">PRE:RAF Short (poster,&nbsp2017)</p></div>
+        <div class="swiper-slide" style="width: 1680px;"><img srcset="/images/Fotograf_01_x1.jpg 1x, /images/Fotograf_01_x2.jpg 2x" class "lazyload"><p class="caption">Fotograf Gallery (identity proposal,&nbsp2016)</p></div>
+    </div>
+    <!-- Pagination -->
+      <div class="swiper-pagination swiper-pagination-fraction"><span class="swiper-pagination-current">1</span> / <span class="swiper-pagination-total">10</span></div>
+    <!-- Footer -->
+    <footer>
+      <p><i>< indistinct chatter ></i></p>
+    </footer>
+    <!-- Arrows -->
+    <div class="no-select swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-disabled="false"></div>
+    <div class="no-select swiper-button-prev" tabindex="-1" role="button" aria-label="Previous slide" aria-disabled="true"></div>
+  <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+  <!-- Init Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'fraction',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      autoplay: {
+        delay: 5000,
+      },
+      loop: true,
+    });
+  </script>
+</body>
+</html>
